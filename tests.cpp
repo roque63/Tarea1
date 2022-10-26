@@ -13,15 +13,13 @@
 
 TEST_CASE("Ex1", "[example]")
 {
-    REQUIRE(add(1,1) == 2);
+    REQUIRE(operaNumeros(10,20, "S") == 30);
+    REQUIRE(operaNumeros(10,20, "R") == -10);
+    REQUIRE(operaNumeros(10,20, "M") == 200);
+    REQUIRE(operaNumeros(100,200, "S") == 300);
+    REQUIRE(operaNumeros(100,200, "R") == -100);
+    REQUIRE(operaNumeros(100,200, "M") == 2000);
 }
 
-// =====================
-// tests for exercise 2
-// ---------------------
 
-TEST_CASE("Ex2", "[example]")
-{
-    REQUIRE(mul(3,3) == 9);
-}
 
