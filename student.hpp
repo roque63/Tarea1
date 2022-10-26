@@ -3,13 +3,13 @@
 #include <iostream> // print library
 
 // Exercise 1: implementa la funciónque hace operaciones con números implements function 'add', that adds two numbers
-void operaNumeros( );
+int operaNumeros(int a, int b, string operador );
 
 
 // ===============
 // implementations
 
-void operaNumeros()
+int operaNumeros(int a, int b, string operador )
 {
-     // TODO: fix
+     return 0; // TODO: fix  
 }
